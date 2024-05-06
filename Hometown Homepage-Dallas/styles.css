@@ -1,0 +1,138 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900 */
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+}
+
+.hero {
+    flex-direction: column;
+    display: flex;
+    padding: 8rem;
+    background-image: url(./images/skyline.jpg);
+    background-size: cover;
+    background-position: center;  
+}
+
+h1,
+h2 {
+    display: inline-block;
+    margin: 1rem auto;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    background-color: #ad5642a6;
+    font-weight: 400;
+    color: #341A1A;
+}
+
+h1 {
+    background-color: #341A1A;
+    font-size: 40px;
+    font-weight: 500;
+    color:#F0D4AE;
+}
+
+h2 {
+    background-color: #ad4e39;
+    color:#F0D4AE;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+img:hover {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #341A1A;
+}
+
+#profile {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.activities {
+    flex-direction: column;
+    gap: 2rem;
+    display: flex;
+    border: 3px solid #341A1A;
+    padding: 8rem;
+    background-color: #F0D4AE;
+}
+
+.activities-sub {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.activity {
+    width: 300px;
+    border: 2px solid #341A1A;
+    border-radius: 15px;
+    padding: 15px; 
+}
+
+.activity:hover {
+    background-color: #341A1A;
+    color:#F0D4AE;
+}
+
+.text {
+    margin: 1rem 0rem;
+    font-weight: bold;   
+}
+
+.guide {
+    border: 3px solid #341A1A;
+    padding: 8rem;   
+}
+
+.quote {
+    display: flex;
+    border: 2px solid brown;
+    border-top: 0px;
+    padding: 3rem 12rem; 
+}
+
+.quote-block {
+    display: flex;
+    width: 30rem;
+    margin: auto auto;
+    border-right: 5px solid #28141B;
+    border-bottom: 5px solid #28141B;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #644759;
+}
+
+.quote-text {
+    padding: 1rem;
+    color: #F0D4AE; 
+}
